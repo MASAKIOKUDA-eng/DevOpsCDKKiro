@@ -1,0 +1,23 @@
+{
+  "name": "cdk-devops-agent-testing",
+  "version": "1.0.0",
+  "description": "AWS DevOps Agent障害調査能力検証用CDKテストプロジェクト",
+  "main": "lib/devops-agent-testing-stack.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.150.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "aws-cdk": "^2.150.0",
+    "@types/jest": "^29.0.0"
+  }
+}

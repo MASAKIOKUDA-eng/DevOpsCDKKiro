@@ -1,0 +1,80 @@
+{
+  "/DevopsAgentTestingStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (C:\\Users\\inuin\\.kiro\\DevOpsCDKKiro\\bin\\app.ts:5:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/DevopsAgentTestingStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/DevopsAgentTestingStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/DevopsAgentTestingStack/FaultBucketNoOac/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FaultBucketNoOac5EBD4054"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "new DevopsAgentTestingStack (C:\\Users\\inuin\\.kiro\\DevOpsCDKKiro\\lib\\devops-agent-testing-stack.ts:14:20)",
+        "<anonymous> (C:\\Users\\inuin\\.kiro\\DevOpsCDKKiro\\bin\\app.ts:5:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/DevopsAgentTestingStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/DevopsAgentTestingStack/FaultBucketNoOac/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FaultBucketNoOacPolicy52D6E25B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addToResourcePolicy in aws-cdk-lib...",
+        "new DevopsAgentTestingStack (C:\\Users\\inuin\\.kiro\\DevOpsCDKKiro\\lib\\devops-agent-testing-stack.ts:22:12)",
+        "<anonymous> (C:\\Users\\inuin\\.kiro\\DevOpsCDKKiro\\bin\\app.ts:5:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ]
+}
