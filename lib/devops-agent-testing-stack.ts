@@ -67,7 +67,7 @@ export class DevopsAgentTestingStack extends cdk.Stack {
       vpc,
       instanceType: ec2.InstanceType.of(ec2.InstanceClass.T2, ec2.InstanceSize.MICRO),
       machineImage: ec2.MachineImage.genericLinux({
-        'ap-northeast-1': 'ami-0abcdef1234567890', // FP-EC2-003
+        'ap-northeast-1': 'ami-0967230e9fa45db6d', // FP-EC2-003
       }),
       securityGroup: sg,
       vpcSubnets: { subnetType: ec2.SubnetType.PUBLIC }, // FP-EC2-004
